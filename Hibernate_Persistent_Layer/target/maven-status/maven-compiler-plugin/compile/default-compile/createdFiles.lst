@@ -1,0 +1,10 @@
+org\hibernate\repository\dao\UserRepositoryDao.class
+org\hibernate\config\HibernateUtil.class
+org\hibernate\entities\Skill.class
+org\hibernate\commun\IDAO.class
+org\hibernate\application\Application.class
+org\hibernate\commun\GenericDao.class
+org\hibernate\entities\Ranking.class
+org\hibernate\entities\User.class
+org\hibernate\commun\IUserRepositoryDao.class
+org\hibernate\commun\UserRepositoryImpl.class

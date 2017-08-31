@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+        
+<hibernate-configuration>
+	
+	<session-factory>
+		
+		<!-- Assume test is the database name -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/revision</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">Yawyaw1990</property>
+		
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		
+		
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">update</property>
+		
+
+		<!-- List of XML mapping files -->
+		    
+		    <mapping class="org.hibernate.entities.User"/>
+		    <mapping class="org.hibernate.entities.Skill"/>
+		    <mapping class="org.hibernate.entities.Ranking"/>    
+		 
+	</session-factory> 
+
+</hibernate-configuration>

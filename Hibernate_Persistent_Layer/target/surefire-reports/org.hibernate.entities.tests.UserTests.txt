@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.hibernate.entities.tests.UserTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.24 s <<< FAILURE! - in org.hibernate.entities.tests.UserTests
+addUserTest(org.hibernate.entities.tests.UserTests)  Time elapsed: 5.147 s  <<< ERROR!
+org.hibernate.MappingException: Unknown entity: org.hibernate.entities.User
+	at org.hibernate.entities.tests.UserTests.addUserTest(UserTests.java:38)
+
